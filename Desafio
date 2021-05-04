@@ -1,0 +1,6 @@
+Elaborar uma API Simples utilizando os frameworks Django e Django Rest API para registro de uma ToDo List com atenção às seguintes regras:
+Deve possuir autenticação simples com login e senha para obtenção do token;
+Apenas usuários autenticados podem utilizar a API;
+Só posso operar apenas as tarefas que eu cadastrei;
+Bonus: Criar um interface simples para realizar o login e interagir com a ToDo list. 
+Dê preferência de criar a interface utilizando (HTML, CSS, Javascript) pois o front da atual plataforma é desenvolvido em templates Flask. Mas caso você possua conhecimentos em frameworks mais modernos como React e se sinta mais confortável com essa tecnlogia sinta-se a vontade.
