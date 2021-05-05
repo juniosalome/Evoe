@@ -10,9 +10,9 @@ def create_data(apps, schema_editor):
     user = User(pk=1, username="auth0user", is_active=True , email="junio.salome@gmail.com")
     user.save()
 
-    Produto(chave='chave1',nome='Produto 1', description='Produto 1').save()
-    Produto(chave='chave2',nome='Produto 2', description='Produto 2').save()
-    Produto(chave='chave3',nome='Produto 3', description='Produto 3').save()
+    Produto(chave='chave1',nome='Produto 1', decricao='Produto 1').save()
+    Produto(chave='chave2',nome='Produto 2', decricao='Produto 2').save()
+    Produto(chave='chave3',nome='Produto 3', decricao='Produto 3').save()
 
 
     
