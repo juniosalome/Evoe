@@ -13,7 +13,7 @@ $ pip install asn1crypto cffi cryptography django django-cors-headers django-fil
 
 $ pip install -r requerimentos.txt
  
-cd vueapp
+**cd vueapp
 
 npm install
 
