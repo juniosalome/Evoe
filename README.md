@@ -5,6 +5,8 @@ Vue
 
 Node
 
+Python-virtualenv
+
 
 
 # Executar um dos comandos abaixo: 
