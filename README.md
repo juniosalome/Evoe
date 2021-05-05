@@ -14,9 +14,9 @@ Python-virtualenv
 ```
 Linux
 
-**$ virtualenv -p python3 env**
+$ virtualenv -p python3 env
 
-**$ source env/bin/activate**
+$ source env/bin/activate
 
 ```
 $ pip install asn1crypto cffi cryptography django django-cors-headers django-filter django-webpack-loader djangorestframework djangorestframework-jwt ecdsa future idna pycparser PyJWT python-jose pytz six
