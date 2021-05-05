@@ -30,7 +30,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 '''
 conn = http.client.HTTPSConnection("juniosalome.us.auth0.com")
 
-payload = "{\"client_id\":\"q5eUdvqaVmKalSLBne5hi1AvQtIuPlqa\",\"client_secret\":\"4DnV0bJYLzo5PwjYWpg5YDlBC0KS8ldIRaGEL8-o1bUp-WFu9sD4FgeFe_uzwli6\",
+payload = "{\"client_id\":\"89W9UuJx0KvoNSVzCuonXxRvAdT1ZoPm\",\"client_secret\":\"SoetinChpN-XObqcCqa8I8LszODLleF06-YUbIIzHmwSf4JbTZBjCssu1J5HqfxG\",
 \"audience\":\"https://juniosalome.us.auth0.com/api/v2/\",\"grant_type\":\"client_credentials\"}"
 
 headers = { 'content-type': "application/json" }
@@ -39,7 +39,7 @@ conn.request("POST", "/oauth/token", payload, headers)
 '''
 
 # SECURITY WARNING: keep the secret key used in produtoion secret!
-SECRET_KEY = 'ng95q#fy@mgbt#i=wmm^p+9o!m9=hgk4()0318j(iwfb#-5=+3'
+SECRET_KEY = 'SoetinChpN-XObqcCqa8I8LszODLleF06-YUbIIzHmwSf4JbTZBjCssu1J5HqfxG'
 
 # SECURITY WARNING: don't run with debug turned on in produtoion!
 DEBUG = True
