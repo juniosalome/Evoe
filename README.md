@@ -19,7 +19,7 @@ npm install
 
 npm run dev
 
-
+**Em outro terminal**
 python manage.py migrate
 
 python manage.py runserver
