@@ -22,6 +22,10 @@ $ source env/bin/activate
 $ pip install asn1crypto cffi cryptography django django-cors-headers django-filter django-webpack-loader djangorestframework djangorestframework-jwt ecdsa future idna pycparser PyJWT python-jose pytz six
 
 $ pip install -r requerimentos.txt
+
+```
+Alguns linux tem que usar o pip3 para usar a versão mais recente do Python
+```
  
 **cd vueapp**
 
