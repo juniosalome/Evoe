@@ -15,9 +15,9 @@ $ pip install -r requerimentos.txt
  
 **cd vueapp**
 
-npm install
+sudo npm install
 
-npm run dev
+sudo npm run dev
 
 **Em outro terminal**
 
