@@ -3,9 +3,11 @@ Vue
 Node
 
 
-pip install asn1crypto cffi cryptography django django-cors-headers django-filter django-webpack-loader djangorestframework djangorestframework-jwt ecdsa future
-pip install idna pycparser PyJWT python-jose pytz six
 
+Executar um dos comandos abaixo: 
+$ pip install asn1crypto cffi cryptography django django-cors-headers django-filter django-webpack-loader djangorestframework djangorestframework-jwt ecdsa future idna pycparser PyJWT python-jose pytz six
+$ pip install -r requerimentos.txt
+ 
 cd vueapp
 npm install
 npm run dev
