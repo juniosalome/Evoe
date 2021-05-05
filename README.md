@@ -38,3 +38,6 @@ sudo npm run dev
 python manage.py migrate
 
 python manage.py runserver
+```
+Alguns linux tem que usar o python3 para usar a versão mais recente do Python
+```
