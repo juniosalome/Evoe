@@ -19,7 +19,7 @@ from django.urls import path
 from django.conf.urls import url
 from django.views.generic import TemplateView
 from django.views.generic import RedirectView
-from catalog import views
+from catalogo import views
 
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='index'),
