@@ -15,8 +15,3 @@ PyJWT==1.5.3
 python-jose==1.4.0
 pytz==2017.3
 six==1.11.0
-
-https://github.com/techiediaries/django-auth0-vue
-https://manage.auth0.com/
-conferir auth auth0-variables.js
-conferir auth authservice.js
