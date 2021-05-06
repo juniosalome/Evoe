@@ -38,15 +38,19 @@ headers = { 'content-type': "application/json" }
 conn.request("POST", "/oauth/token", payload, headers)
 '''
 
-# SECURITY WARNING: keep the secret key used in produtoion secret!
-SECRET_KEY = 'SoetinChpN-XObqcCqa8I8LszODLleF06-YUbIIzHmwSf4JbTZBjCssu1J5HqfxG'
+
 
 # SECURITY WARNING: don't run with debug turned on in produtoion!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-API_AUDIENCE = 'https://juniosalome.us.auth0.com/api/v2/'
-AUTH0_DOMAIN = 'juniosalome.us.auth0.com'
+# SECURITY WARNING: keep the secret key used in produtoion secret!
+API_AUDIENCE = 'https://djangovuedemoapi.techiediaries.com'
+AUTH0_DOMAIN = 'techiediaries.auth0.com'
+SECRET_KEY = 'ng95q#fy@mgbt#i=wmm^p+9o!m9=hgk4()0318j(iwfb#-5=+3'
+#SECRET_KEY = 'SoetinChpN-XObqcCqa8I8LszODLleF06-YUbIIzHmwSf4JbTZBjCssu1J5HqfxG'
+#API_AUDIENCE = 'https://juniosalome.us.auth0.com/api/v2/'
+#AUTH0_DOMAIN = 'juniosalome.us.auth0.com'
 
 # Application definition
 
