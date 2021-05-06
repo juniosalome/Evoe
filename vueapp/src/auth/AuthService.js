@@ -19,7 +19,7 @@ export default class AuthService {
     domain: AUTH_CONFIG.domain,
     clientID: AUTH_CONFIG.clientId,
     redirectUri: AUTH_CONFIG.callbackUrl,
-    audience: 'https://juniosalome.us.auth0.com/api/v2/',
+    audience: 'https://djangovuedemoapi.techiediaries.com',
     responseType: 'token id_token',
     scope: 'openid profile'
   })
